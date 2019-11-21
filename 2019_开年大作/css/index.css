@@ -1,0 +1,319 @@
+body{
+    background: #f6f6f6
+}
+
+
+
+header{
+    height: 91px;
+    padding-top: 33px;
+    background: #040000;
+   
+}
+.header_content{
+    position: relative;
+}
+
+.logo{
+    height: 42px;
+}
+.logo a{
+    display: block;
+    width:351px ;
+    height: 49px;
+    font-size: 0;
+    background: url(../img/logo.png) no-repeat;
+    line-height: 124px;
+   
+}
+nav {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    border: 1px solid #e9e9e9;
+    background: #fff;
+    line-height: 54px;
+}
+nav li{
+    height: 54px;
+    width: 124px;
+    
+    float: left;
+    text-align: center;
+    color: #4e4e4e;
+}
+nav ul li:nth-child(1) {
+  background:#f8b62d;
+ 
+}
+nav ul li:nth-child(1) a{
+    color: #fff;
+}
+
+.submit{
+    width: 130px;
+    height: 54px;
+    background: #f4b440;
+
+}
+.submit a{
+    color: #fff;
+    text-align: center;
+    
+}
+
+.sousuo input{
+    border: none;
+    border-left: 1px solid #eee;
+    width: 250px;
+    /* padding-left: 15px; */
+
+}
+.wrap{
+    background: #f6f6f6;
+    overflow: hidden;
+    /* border: 1px solid #eee; */
+}
+.focus{
+    margin-top: 62px;
+    
+}
+
+.focus_left{
+    width: 880px;
+    height: 202px;
+    margin-right: 20px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.focus_left #ul{
+    width: 400%;
+    position: absolute;
+    left:0;
+}
+.focus_left #ul img{
+    width: 100%;
+}
+
+.focus_left #ul li{
+    float: left;
+}
+.focus_left .left{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -25px;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    font-size: 16px;
+    color: #fff;
+    
+}
+.focus_left  .right{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -25px;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    font-size: 16px;
+    color: #fff;
+    
+    
+}
+
+
+.focus_left .dots{
+    width: 100px;
+    position: absolute;
+    left: 390px;
+   
+    bottom:10px;
+}
+.focus_left .dots li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 0, 0, .5);
+    margin: 0  11px;
+   
+}
+
+.dotsColr{
+    background: rgba(9, 230, 119, 0.774) !important;
+}
+
+.list_right ul{
+    width: 240px;
+    
+    
+}
+.list_right ul img{
+    width: 100%;
+    
+}
+.focus .list_right{
+    background: #fff;
+}
+.focus .list_right h3{
+    height: 44px;   
+    line-height: 44px;
+    text-indent: 14px;
+    
+}
+
+.list_right ul  p{
+    font-size: 16px;
+    height: 42px;
+    color: #797979;
+    line-height: 42px;
+    text-indent: 14px;
+}
+.content{
+    width: 880px;
+    padding-top:30px;
+    background: #fff;
+    margin-top: 23px;
+}
+.content h3{
+    height: 35px;
+    padding-left: 17px;
+
+}
+.content li{
+    width: 186px;
+    /* height: 245px; */
+    margin:0 16px;
+    float: left;
+}
+.content li img{
+    width: 100%;
+}
+
+#content_list  p{
+    height: 40px;
+    padding-top: 14px;
+    color: #404040;
+    font-size: 14px;
+}
+
+.content2{
+    width: 846px;
+    margin-top: 22px;
+    padding: 30px 17px 0 17px;
+    font-size: 12px;
+    color: #9c9c9c;
+    background: #fff;
+
+}
+.content2 h3{
+    height: 37px;
+    text-indent: 17px;
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3d3d3d;
+
+}
+.content2 .gengduo{
+    float: right;
+    color: #9c9c9c;
+    /* font-size: 12px; */
+}
+.content2 .title{
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+}
+#content2_list  p.describe {
+    height: 45px;
+    line-height: 36px;
+  
+}
+
+#content2_list  p.update{
+    height: 48px;
+}
+
+#content2_list li{
+    width: 118px;
+    float: left;
+    margin-right: 27px;
+    
+}
+#content2_list img{
+    width: 100%;
+    height: 178px;
+    
+}
+
+#content2_list li:nth-child(6){
+    
+    margin-right: 0;
+}
+#content2_list li:nth-child(12){
+    
+    margin-right: 0;
+}
+
+footer{
+    margin-top: 67px !important;
+}
+
+footer>ul>li{
+    float: left;
+    padding:0 18px 0 26px;
+    position: relative;
+}
+
+footer .iconfont{
+    position: absolute;
+    left: 0;
+    color:#595858;
+}
+
+
+footer>ul>li>ul>li{
+    height: 24px;
+    font-size: 14px;
+    color: #b1b1b1;
+    /* position: relative; */
+}
+
+.i{
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url('../img/wenwangwenicon.png')no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+}  
+.tishi1{
+    float: left;
+}
+footer .tishi2{
+    float: left;
+    background: #4a4947;
+    border-radius: 10px;
+    padding-bottom: 12px;
+    margin-left: 10px;
+}
+
+footer .tishi2 li{
+    padding:12px 10px 0 18px; 
+    font-size: 14px;
+    height: 14px;
+    line-height: 14px;
+    color: #d9d9d9;
+}

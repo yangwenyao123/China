@@ -1,0 +1,127 @@
+.content{
+    margin-top: 62px;
+}
+.content .posters{
+    width: 246px;
+    margin-right: 14px;
+    float: left;
+}
+.content .posters img{
+    width: 100%;
+}
+
+.content .attention{
+    width: 232px;
+    height: 72px;
+    margin-top: 30px;
+    background: #fff;
+    padding: 14px 0 14px 14px;
+
+}
+.content .attention img{
+    width: 66px;
+    height: 68px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 12px;
+}
+.content .attention p{
+    line-height: 24px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+.series{
+    width: 847px;
+    float: left;  
+    /* height: 56px; */
+    padding-top: 24px;
+    padding-left: 18px;
+    padding-right: 15px;
+    background: #fff;
+    
+}
+.series a{
+    display: inline-block;
+    color: #53b6b1;
+}
+.title{
+    height: 56px;
+}
+.title h3{
+    float: left;
+    width: 74px;
+    border-left: 2px solid #f7b52b;
+    text-align: center;
+}
+.title .iconfont{
+    float: left;
+    font-size: 13px;
+    color:#f7b52b;
+    line-height:20px; 
+}
+
+.title span{
+    font-size: 12px;
+    font-weight: 600;
+    color: #f7b52b;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+.series .translation{
+    height: 36px;
+}
+
+.series .describe{
+    text-indent: 52px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #949494;
+    height: 70px;
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 16px;
+}
+.series .reading{
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #f4b440;
+    margin-right: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+.series .collection{
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border:1px solid  #f4b440;
+    /* margin-right: 20px; */
+    border-radius: 10px;
+    color: #f4b440;
+}
+.series>h3{
+    
+    margin: 36px 0;
+    margin-left: 10px;
+    border-left: 2px solid #f7b52b;
+    padding-left: 10px;
+}
+
+
+.series #blues{
+    padding-left: 52px;
+}
+
+.series  #blues li{
+    width: 140px;
+    height: 66px;
+    float: left;
+}
+
+.width{
+    width: 100px;
+}

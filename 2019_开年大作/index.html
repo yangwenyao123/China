@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header_content w clearfix">
+            <div class="logo fl">
+                <h1><a href="#">爆卡动漫</a></h1>
+            </div>
+
+            <!-- 顶部搜索栏 -->
+            <nav class="w clearfix">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">分类</a></li>
+                    <li><a href="#">用户中心</a></li>
+                    <li><a href="#">充值中心</a></li>
+                    <li><a href="#">客服中心</a></li>
+                </ul>
+                <div class="sousuo fr">
+                    <i class="iconfont">&#xe60d;</i>
+                    <input type="text" placeholder="请输入您要搜索的动漫">
+                    <div class="submit fr">
+                        <a href="#">
+                            <i class="iconfont">&#xf0024;</i>
+                            我要投稿
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+
+        </div>
+
+
+    </header>
+
+
+
+    <!-- 轮播图 -->
+    <div class="wrap">
+        <div class="focus w clearfix ">
+            <div class="focus_left fl">
+                <ul id="ul">
+                    <li><img src="./img/carousel.jpg" alt=""></li>
+                    <li><img src="./img/carousel1.jpg" alt=""></li>
+                    <li><img src="./img/carousel2.jpg" alt=""></li>
+                    <li><img src="./img/carousel.jpg" alt=""></li>
+                </ul>
+                
+                <ul class="dots">
+                    <li class="dotsColr"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+                <div class="iconfont left">&#xe606;</div>
+                <div class="iconfont right">&#xe603;</div>
+            </div>
+
+            <!-- 右边栏 -->
+            <div class="list_right fr">
+                <h3>游戏中心</h3>
+                <ul id="list">
+                    <li>
+                        <a href="#">
+                            <img src="./img/1.jpg" alt="">
+                            <p></p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 主内容区域 -->
+            <div class="content fl">
+                <h3>游戏中心</h3>
+                <ul id="content_list">
+                    <li><a href="#"><img src="./img/lhsl_199x259.jpg" alt="">
+                            <p>灵魂撕裂</p>
+                        </a></li>
+
+
+                </ul>
+            </div>
+
+            <!-- 主内容区域2 -->
+            <div class="content2 fl">
+                <div class="title_box clearfix">
+                    <h3>最近更新</h3>
+                    <a href="#" class="gengduo">更多</a>
+                </div>
+                <ul id="content2_list">
+                    <li>
+                        <a href="#">
+                            <img src="./img/43m(3).jpg" alt="">
+                            <p class="title">时雨</p>
+                        </a>
+                        <p class="describe">睡筝娘</p>
+                        <p class="update">最后更新:第1话</p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部区域 -->
+    <footer class="w">
+        <ul>
+            <li>
+                <ul>
+                    <li><i class="iconfont">&#xe6eb;</i>珠海市卡壳科技</li>
+                    <li>地址:珠海市香夏路5号</li>
+                    <li>[南夏丰泽大厦]2栋2层1202</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li><i class="iconfont">&#xe6eb;</i>珠海市卡壳科技</li>
+                    <li>地址:珠海市香夏路5号</li>
+                    <li>[南夏丰泽大厦]2栋2层1202</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li><i class="iconfont">&#xe6eb;</i>电话:</li>
+                    <li>020-12345678</li>
+
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li><i class="iconfont">&#xe6eb;</i>ICP备案号:粤ICP备15028492号-1</li>
+                    <li><i class="i"></i>网络文化经营许可证:粤网文[2019]2091-426号</li>
+                </ul>
+            </li>
+            <li>
+                <img src="./img/bkn.png" alt="" class="tishi1">
+                <ul class="tishi2">
+                    <li>沉迷娱乐伤身</li>
+                    <li>合理安排时间</li>
+                    <li>享受健康生活</li>
+                    <li>适龄17岁以上</li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
+    
+</body>
+
+</html>
+<!-- js -->
+
+<script src="js/index.js"></script>
+<script src="js/animation.js"></script>
+
+<script>
+    // 轮播图
+
+
+var ul = document.querySelector('#ul')
+var imgWidth = document.querySelector('#ul img').offsetWidth
+var dots = document.querySelectorAll('.dots li')
+
+var left = document.querySelector('.focus_left .left')
+var right = document.querySelector('.focus_left .right')
+var box = document.querySelector('.focus_left')
+
+var index = 0
+
+for(var i=0;i<dots.length;i++)
+{
+    dots[i].index = i
+    dots[i].onclick = function(){
+        for(var i=0;i<dots.length;i++){
+            dots[i].className = ''
+        }
+        this.className = 'dotsColr'
+        index = this.index 
+        var trage = index * imgWidth *-1
+        fn(ul,trage,100)
+    }
+}
+left.onclick = function(){
+    if(index===0){
+        index = ul.children.length -1
+        ul.style.left = (index * imgWidth ) * -1 +'px'
+    }
+    index --
+    var tager = (index * imgWidth ) *-1
+
+    fn(ul,tager,100)
+    
+    for(var i=0;i<dots.length;i++)
+    {
+        dots[i].className = ''
+    }
+    dots[index].className = 'dotsColr'
+    
+
+}
+right.onclick = next
+
+function next(){
+    if(index===ul.children.length -1){
+        index = 0
+        ul.style.left = 0
+    }
+    index ++
+
+    var tager = (index * imgWidth ) *-1
+
+    fn(ul,tager,100)
+
+    for(var i=0;i<dots.length;i++)
+    {
+        dots[i].className = ''
+    }
+    if(index===ul.children.length -1){
+        dots[0].className = 'dotsColr'
+    }else{
+        dots[index].className = 'dotsColr'
+    }
+    
+}
+
+// 自动播放
+box.timer = setInterval(next,3000)
+
+// 鼠标移入 轮播图自动播放
+box.onmouseover =function(){
+    clearInterval(box.timer)
+}
+
+// 鼠标移出 轮播图停止播放
+box.onmouseout = function(){
+    box.timer = setInterval(next,3000)
+}
+</script>

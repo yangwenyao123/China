@@ -1,0 +1,67 @@
+.content {
+    margin-top: 62px;
+}
+.content .box{
+    width: 326px;
+    padding: 18px 20px 0 20px;
+    border: 1px solid #ececec;
+    float: left;
+}
+.content .box:nth-child(2){
+    margin: 0 20px;
+}
+
+.content .box li{
+    width: 96px;
+    float: left;
+    margin-right:18px;
+}
+
+.content .box ul  li:last-child {
+    margin-right: 0;
+}
+
+
+.box li img{
+    width: 100%;
+    display: block;
+}
+
+.box li a p{
+    padding-top: 12px;
+    height: 58px;
+    font-size: 14px;
+    color: #3d3d3d;
+}
+
+.box li>p:nth-child(2){
+    height: 30px;
+    color: #a7a7a7;
+    font-size: 12px;
+}
+.box li>p:nth-child(3){
+    height: 47px;
+    color: #a7a7a7;
+    font-size: 12px;
+}
+
+.box .title{
+    padding-bottom: 28px;
+}
+.box .title h3{
+    float: left;
+    padding-left: 12px;
+    border-left: 2px solid #f8b62d;
+}
+.box .title a{
+    float: right;
+    
+    
+}
+.box .title i{
+    float: right;
+    margin: 5px 0 0 5px;
+    width: 14px;
+    height: 14px;
+    background: url('../img/newicon_20160225.png') -3px -2px;
+}
